@@ -13,12 +13,12 @@ Each application or operators while be define in it own directory. You can usual
 1. By cloning the the catalog locally and applying the desired kustomize like so:
     ```
     git clone https://github.com/froberge/openshift-catalog
-    oc apply -k openshift-catalog/nexus
+    oc apply -k openshift-catalog/nexus/base
     ```
 
 2. Referencing directly the repository in you `CLI` apply commmand like so:
     ```
-    oc apply -k https://github.com/froberge/openshift-catalog/nexus
+    oc apply -k https://github.com/froberge/openshift-catalog/nexus/base
     ```
 
 ## Kustomize
@@ -32,5 +32,5 @@ kind: Kustomization
 namespace: [DEFINE YOUR NAMESPACE]
 
 resources:
-- github.com/froberge/openshift-catalog/nexus/?ref=main
+- github.com/froberge/openshift-catalog/nexus/base/?ref=main
 ```

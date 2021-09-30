@@ -1,10 +1,10 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-namespace: cicd-tools
+#namespace: cicd-tools
 bases:
 - github.com/redhat-cop/gitops-catalog/nexus2/base?ref=main
 resources:
-- namespace.yaml
+#- namespace.yaml
 - nexus-secret.yaml
 generatorOptions:
   disableNameSuffixHash: true
