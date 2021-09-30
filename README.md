@@ -34,3 +34,5 @@ namespace: [DEFINE YOUR NAMESPACE]
 resources:
 - github.com/froberge/openshift-catalog/nexus/base/?ref=main
 ```
+
+**Note** none of the catalog component specify a namespace, in your kustomization overlay you can include the specific namespace you want to install the tool into.
