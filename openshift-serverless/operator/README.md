@@ -6,7 +6,7 @@ Installs the OpenShift Serverless operator.
 
 The current *overlays* available:
 * [4.8](overlays/ocp-4.8)
-* [4.7](overlays/stable)
+* [stable](overlays/stable)
 
 ## Usage
 
