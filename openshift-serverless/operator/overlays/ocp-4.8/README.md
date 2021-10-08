@@ -1,0 +1,1 @@
+Installs the `4.8 channel` of the OpenShift Serverless operator.
