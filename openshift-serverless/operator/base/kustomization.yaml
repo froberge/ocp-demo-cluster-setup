@@ -4,4 +4,4 @@ kind: Kustomization
 namespace: openshift-operators
 
 resources:
-  - openshift-serverless.yaml
+  - openshift-serverless-sub.yaml
