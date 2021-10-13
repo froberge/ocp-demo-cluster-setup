@@ -1,6 +1,6 @@
 # OpenShift Pipelines Operator
 
-Installs the OpenShift Pipelines operator.
+Installs the OpenShift GitOps operator.
 
 :warning: NERVER use the `base` directory directly, since the `channel` and `version` needs to be patch base on the version of Openshift being used or the version of the operator needed.
 
@@ -20,13 +20,13 @@ https://github.com/froberge/openshift-catalog.git
 and then apply the desired overlays from the root directoty
 
 ```
-oc apply -k openshift-pipelines/overlays/<channel>
+oc apply -k openshift-gitops/overlays/<channel>
 ```
 
 #### Option 2: Apply directly from GitHub
 
 ```
-oc apply -k https://github.com/froberge/openshift-catalog/openshift-pipelines/overlays/<channel>
+oc apply -k https://github.com/froberge/openshift-catalog/openshift-gitops/overlays/<channel>
 ```
 
 #### Option 3: From another overlays in another project
@@ -36,5 +36,5 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 bases:
-  - github.com/froberge/openshift-catalog/openshift-pipelines/overlays/<channel>?ref=main
+  - github.com/froberge/openshift-catalog/openshift-gitops/overlays/<channel>?ref=main
 ```

@@ -1,3 +1,4 @@
-# NEXUS
+# Nexus
 
-This install a basic nexus inside your cluster.
+Installs Nexus into your OpenShift CLuster
+
