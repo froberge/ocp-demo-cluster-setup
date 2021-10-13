@@ -4,7 +4,7 @@ kind: Kustomization
 bases:
   - ../../base
 
-patches:
+patchesJson6902:
   - path: patch-channel.yaml
     target:
       group: operators.coreos.com
