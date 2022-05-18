@@ -1,6 +1,6 @@
 # OpenShift Catalog
 
-This OpenShift Catalog uses [Kustomize](https://kustomize.io/) to deploy a number of Operators or applications that could be needed when deploying and OpenShift cluster.
+This OpenShift Catalog uses [Kustomize](https://kustomize.io/) to deploy a number of Operators or applications that could be needed when deploying an OpenShift cluster.
 
 :warning: **This catalog is my own work and is not supported by Red Hat** and I strongly discouraged you from referencing this repo directly as a remote Kustomize repo. It also rely on the a [GitOps Catalog](https://github.com/redhat-cop/gitops-catalog) that is not supported by Red Hat. Instead we engouraged you to take indidual items of interest and curated in your own catalog and maintain it as your own.
 
