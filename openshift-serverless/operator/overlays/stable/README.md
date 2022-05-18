@@ -1,1 +1,0 @@
-Installs the `stable channel` of the OpenShift Serverless Operator.
